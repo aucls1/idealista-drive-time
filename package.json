@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test test/"
+    "test": "node --test test/*.test.js"
   },
   "description": "Chrome extension: search idealista for homes within X minutes' drive of a point",
   "license": "MIT",
