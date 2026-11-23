@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Drive-time search for idealista",
+  "version": "0.1.0",
+  "description": "Search idealista.pt for homes within X minutes by car of a point. Not affiliated with idealista.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Pesquisar por tempo de carro"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.openrouteservice.org/*"
+  ],
+  "homepage_url": "https://github.com/aucls1/idealista-drive-time"
+}

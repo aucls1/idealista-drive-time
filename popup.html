@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <form id="search">
+    <input id="q" type="search" placeholder="Morada ou local (ex.: Av. da Boavista, Porto)" autocomplete="off">
+    <button type="submit">Procurar</button>
+  </form>
+  <ul id="results" hidden></ul>
+  <div id="map"></div>
+  <p class="hint">Clique no mapa para mudar o ponto de partida.</p>
+  <div class="row">
+    <label>Até <input id="minutes" type="number" min="5" max="60" step="5" value="45"> min de carro</label>
+    <button id="calc">Calcular área</button>
+  </div>
+  <p id="status" role="status"></p>
+  <button id="open" class="primary" disabled>Abrir no idealista</button>
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "⚠️ Never paste your OpenRouteService API key here."
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Include any red error text from the popup.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Starting point (a nearby town is enough), minutes, buttons clicked.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: input
+    id: version
+    attributes:
+      label: Extension version and Chrome version
+      placeholder: "0.1.0 / Chrome 131"

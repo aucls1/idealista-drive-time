@@ -1,0 +1,25 @@
+{
+  "name": "idealista-drive-time",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "description": "Chrome extension: search idealista for homes within X minutes' drive of a point",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aucls1/idealista-drive-time.git"
+  },
+  "keywords": [
+    "idealista",
+    "isochrone",
+    "chrome-extension",
+    "real-estate",
+    "openrouteservice"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}
